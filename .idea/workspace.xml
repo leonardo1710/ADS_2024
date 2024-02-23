@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f02a1e2-9531-4579-83be-9863b5730cc4" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/01_lecture/exercises/printing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_lecture/exercises/user_input.py" afterDir="false" />
+    <list default="true" id="0f02a1e2-9531-4579-83be-9863b5730cc4" name="Changes" comment="started with first lecture and exercises">
+      <change afterPath="$PROJECT_DIR$/01_lecture/variables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_lecture/printing.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_lecture/printing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_lecture/user_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_lecture/user_input.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +37,11 @@
     "Python.main.executor": "Run",
     "Python.printing.executor": "Run",
     "Python.user_input.executor": "Debug",
+    "Python.variables.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager">
@@ -93,11 +92,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708681571478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="started with first lecture and exercises">
+      <option name="closed" value="true" />
+      <created>1708684128108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708684128109</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="started with first lecture and exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="started with first lecture and exercises" />
   </component>
 </project>
