@@ -13,16 +13,6 @@ print("Welcome to Algorithms and Data Structures!")
 print("First we will practice using the print command.")
 print("This program prints three lines of text on the screen.")
 
-# TODO
-'''
-Write a program which prints out the following lines exactly as they are written:
-
-Row, row, row your boat,
-Gently down the stream.
-Merrily, merrily, merrily, merrily,
-Life is but a dream.
-'''
-
 """
 You can also put arithmetic operations inside a print command. 
 Running it will then print out the result of the operation. 
@@ -53,9 +43,6 @@ It is also possible to combine strings with calculations:
 """
 print("2 + 2 = ", 2 + 2)
 
-# TODO
-# print the multiplication of 2*2 using a combination of string and operation
-# the program should print "the result = 4"
 
 
 
