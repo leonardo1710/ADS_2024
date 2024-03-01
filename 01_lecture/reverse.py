@@ -41,7 +41,6 @@ average_price = round(average_price, 2)
 
 total_sum_as_string = str(sum_total)
 
-# Display the final result
 print("Total sum to pay: " + total_sum_as_string + " €")
 print("The average price is " + str(average_price) + " € per item.")
 print("Amount of cheap items bought:", cheap_items_count)
