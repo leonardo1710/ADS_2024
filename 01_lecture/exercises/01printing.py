@@ -15,7 +15,12 @@ The program should print "the result = 4"
 # Write your solution here
 
 """
-Please fix this program so that the entire calculation, complete with result, is printed out on a single line. 
+Write a program which prints out: print("Hello there!")
+"""
+# Write your solution here
+
+"""
+Fix this program so that the entire calculation, complete with result, is printed out on a single line. 
 Do not change the number of print commands used.
 """
 # Fix the code

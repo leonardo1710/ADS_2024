@@ -1,6 +1,9 @@
 """
 Write a program which asks the user for a number.
 The program then prints out the number multiplied by five.
+Example:
+    Please type in a number: 7
+    7 times 5 is 35
 """
 # Write your solution here
 
@@ -17,6 +20,9 @@ The program then prints out a message as follows:
 """
 Write a program which asks the user for a number of days. 
 The program then prints out the number of seconds in the amount of days given.
+Example:
+    How many days? 7
+    Seconds in that many days: 604800
 """
 # Write your solution here
 
