@@ -7,7 +7,7 @@ remainder = number % 2
 
 Example:
 
-    Enter a number: 17
+    Enter a number: >> 17
     The number 17 is odd.
 """
 # Write your solution here
@@ -23,7 +23,7 @@ The program then prints out the following message:
 
 Example:
 
-    Enter your exam grade: 63
+    Enter your exam grade: >> 63
     You passed the exam!
 """
 # Write your solution here
@@ -44,8 +44,8 @@ covered later in this course :-)
 
 Example:
 
-    Would you like a sandwich, salad, or wrap? salad
-    What kind of dressing would you like: vinaigrette, ranch, or caesar? ranch
+    Would you like a sandwich, salad, or wrap? >> salad
+    What kind of dressing would you like: vinaigrette, ranch, or caesar? >> ranch
     Your order: Salad with ranch dressing
 """
 # Write your solution here
