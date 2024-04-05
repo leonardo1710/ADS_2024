@@ -203,3 +203,71 @@ What distinguishes them from functions is that methods are always attached to th
 The object is the entity named before the method in the method call. In the case of find 
 the object is the string where the method looks for the substring it has as an argument.
 """
+
+"""
+STRING Methods
+
+str.capitalize()
+
+This method returns a copy of the string with its first character capitalized and the others in lowercase.
+"""
+# cap = "i Enjoy traveling. Do you?".capitalize() # I enjoy traveling. do you?
+# print(cap)
+
+"""
+str.lower()
+
+This method returns a copy of the string with any character in uppercase to lowercase.
+"""
+# lower = "i Enjoy traveling. Do you?".lower()    # i enjoy traveling. do you?
+# print(lower)
+
+"""
+str.replace(old, new[, count])
+
+This method returns a string with all occurrences of the substring old substituted by the new. If the count 
+argument is given, all count number of occurrences are replaced.
+"""
+sentence = "i Enjoy traveling. Do you?"
+sentence.replace('Enjoy','dislike')             # "i dislike traveling. Do you?"
+"Things fall apart".replace('a','e',1)   # "Things fell apart"
+
+"""
+More Examples
+"""
+# my_string = "hello world"
+# print(my_string.upper())  # "HELLO WORLD"
+# print(my_string.lower())  # "hello world"
+#
+# my_string = "   hello world   "
+# print(my_string.strip())   # "hello world"
+# print(my_string.lstrip())  # "hello world   "
+# print(my_string.rstrip())  # "   hello world"
+
+"""
+Looping String with For-Loop
+
+Strings are so called iterable objects (since the contain a sequence of characters). 
+That means, we can iterate through them, using a for-loop
+"""
+
+# name = "LEON"
+# for character in name:
+#     print(character)
+#
+#
+# my_string = "hello"
+#
+# # Using a while loop to iterate over each character in the string
+# index = 0
+# while index < len(my_string):
+#     print(my_string[index])
+#     index += 1
+#
+# my_string = "hello"
+#
+# # Using index to access each character in the string
+# for i in range(len(my_string)):
+#     print(my_string[i])
+
+
