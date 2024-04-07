@@ -7,7 +7,10 @@ The following program reads in the name of the user with the input command.
 It then prints it out with the print command:
 """
 # name = input("What is your name? ")
+age = input("How old are you?")
 # print("Hi there, " + name)
+
+print(age + "?! You old hag!")
 
 """
 Variables

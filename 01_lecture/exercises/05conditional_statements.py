@@ -11,7 +11,12 @@ Example:
     The number 17 is odd.
 """
 # Write your solution here
-
+#number = int(input("Enter a number: "))
+#remainder = number % 2
+#if remainder == 0:
+#    print("The number is even.")
+#else:
+#    print("The number is odd.")
 
 """
 Write a program that asks the user for their exam grade (as a percentage). 
@@ -27,6 +32,13 @@ Example:
     You passed the exam!
 """
 # Write your solution here
+#grade = float(input("Enter your exam grade: "))
+#if grade <= 50:
+#    print("Unfortunately, you failed the exam.")
+#elif grade >=90:
+#    print("You are excellent!")
+#else:
+#    print("You passed the exam!")
 
 
 """
@@ -49,3 +61,13 @@ Example:
     Your order: Salad with ranch dressing
 """
 # Write your solution here
+food = input("Do you want a sandwich, salad or a wrap? ")
+if food == "sandwich":
+    sandwichtype = input("With chicken, beef or veggies? ")
+    print(f"You have ordered a sandwich with {sandwichtype}.")
+if food == "salad":
+    saladdressing = input("With vinaigrette, ranch or caesar? ")
+    print(f"You have ordered a salad with {saladdressing}.")
+if food == "wrap":
+   wraptemperature = input("Toasted or not toasted? ")
+   print(f"You have ordered a wrap - {wraptemperature}.")

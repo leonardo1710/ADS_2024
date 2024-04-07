@@ -18,6 +18,16 @@ Examples:
 """
 # Write your solution here
 
+#n1 = int(input("Enter a number: "))
+#n2 = int(input("Enter another number: "))
+
+#if n1 > n2:
+#    print("The greater number is", str(n1), ".")
+#elif n1 == n2:
+#    print("The numbers are equal.")
+#else:
+#    print(f"The greater number is {n2}.")
+
 """
 Python comparison operators can also be used on strings. 
 String a is smaller than string b if it comes alphabetically before b. Notice however that the comparison is only reliable if
@@ -44,6 +54,16 @@ You gave the same word twice.
 """
 # Write your solution here
 
+#word1 = input("Please type in a word: ")
+#word2 = input("Please type in another word: ")
+
+#if word1 > word2:
+#    print(f"{word1} comes alphabetically last.")
+#elif word1 == word2:
+#    print("You entered the same word twice.")
+#else:
+#    print(f"{word2} comes alphabetically last.")
+
 """
 Write a program which asks for the user's name. 
 If the name is Huey, Dewey or Louie, the program should recognise the user as one of Donald Duck's nephews.
@@ -60,6 +80,16 @@ Examples:
     You're not a nephew of any character I know of.
 """
 # Write your solution here
+
+#name = input("Please type in your name: ")
+
+#if name == "Huey" or name == "Dewey" or name == "Louie":
+#    print("I think you might be one of Donald Duck's nephews.")
+#elif name == "Morty" or name == "Ferdie":
+#    print("I think you might be one of Mickey Mouse's nephews.")
+#else:
+#    print("You're not a nephew of any character I know of.")
+
 
 """
 FizzBuzz

@@ -9,10 +9,10 @@ You can run the code by clicking the green Play-Button on the top right of your 
 
 
 def apply_printing_format_to_number(number):
-    return str(round(number, 2))
+    return str(round(number, 2)) (l)
 
 
-name = input("What is your name?\n")
+name = input (colorsys b) ("What is your name?\n")
 budget = float(input("What's your current budget?\n"))
 print("Hello, " + name + "! Your budget is " + apply_printing_format_to_number(budget) + "€. Let's go shopping!")
 

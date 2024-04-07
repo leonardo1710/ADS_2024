@@ -1,3 +1,4 @@
+
 """
 Basic arithmetic operations in Python
 """
@@ -27,9 +28,10 @@ print(f"Diagonal of the rectangle: {rectangle_diagonal}")
 """
 Modulo operator
 """
-# Calculate the remainder when dividing 15 by 4
-# remainder = 15 % 4
-# print(f"The remainder when dividing 15 by 4 is: {remainder}")
+# the remainder when dividing 15 by 4
+remainder = 15 % 4
+
+print(f"The remainder when dividing 15 by 4 is: {remainder}")
 #
 # # Using modulo to check if a number is even or odd
 # number = 7
@@ -46,12 +48,12 @@ Modulo operator
 Division with corresponding results
 """
 # # Division with floating-point result
-# result_float = 15 / 4
-# print(f"Result of 15 / 4 (floating-point): {result_float}")
+result_float = 15 / 4
+print(f"Result of 15 / 4 (floating-point): {result_float}")
 #
 # # Division with integer result using floor division
-# result_integer = 15 // 4
-# print(f"Result of 15 // 4 (integer): {result_integer}")
+result_integer = 15 // 4
+print(f"Result of 15 // 4 (integer): {result_integer}")
 
 """
 Numbers as input
@@ -68,13 +70,12 @@ Numbers as input
 """
 (Re) using variables
 """
-# number1 = int(input("First number: "))
-# number2 = int(input("Second number: "))
-# number3 = int(input("Third number: "))
+number1 = int(input("First number: "))
+number2 = int(input("Second number: "))
+number3 = int(input("Third number: "))
 #
-# sum = number1 + number2 + number3
-# print(f"The sum of the numbers: {sum}")
+sum = number1 + number2 + number3
+print(f"The sum of the numbers: {sum}")
 
 # print the sum of 3 numbers using two variables
-
 # print the sum of 3 numbers using 1 variable

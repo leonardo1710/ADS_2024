@@ -3,7 +3,7 @@ Conditional Statements and Comparison Operators in Python
 """
 
 # Adjust "age" to get different results
-age = 25
+age = 50
 
 """
 Comparison Operators
@@ -16,6 +16,9 @@ print(f"Is the person older than 20? {is_older_than_20}")
 # Less Than
 is_younger_than_30 = age < 30
 print(f"Is the person younger than 30? {is_younger_than_30}")
+# month = "april"
+# month_of_spring = "january", "february", "march"
+# print(f"Is it a month of spring? {month}")
 
 # Equal to
 is_exactly_25 = age == 25
@@ -61,7 +64,7 @@ voting_age = 18
 has_citizenship = True
 
 # Logical "and"
-can_vote = voting_age <= age and has_citizenship
+can_vote = age >= voting_age and has_citizenship
 print(f"Can the person vote? {can_vote}")
 
 # Logical "or"
