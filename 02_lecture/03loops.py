@@ -8,8 +8,8 @@ while i <= 5:
 
 j = 1
 while j < 10:
-    print(j) # print(j, end="")
-    j += 1
+    print(j) # print(j, end="") - this is to remove the new line
+    j += 1 # this is equivalent to j = j + 1
 
 """
 While True - infinite loops
@@ -20,7 +20,7 @@ while True:
     if number == -1:
         break
 
-    print(number ** 2)
+    print(number ** 2) # возведение в степень to the power of
 
 print("Thanks and bye!")
 
@@ -54,10 +54,10 @@ print (f"The sum is {sum}")
 sum = 0
 number = 0
 
-while number != -1:
+while number != -1: # != means different from, the opposite of equal
     number = int(input("Please type in a number, -1 to exit: "))
     if number != -1:
-        sum += number
+        sum += number # sum = sum + number
 
 print (f"The sum is {sum}")
 
@@ -72,13 +72,13 @@ while True:
     if number == -1:
         break
     if number >= 10:
-        continue
+        continue # ignore everything that matches, go back to excecuting the loop. continue from the beginning of the loop. never use
     sum += number
 
 print (f"The sum is {sum}")
 
 """
-Nested Loops
+Nested Loops - because there is while inside while
 """
 
 number = int(input("Please type in a number: "))
@@ -89,3 +89,13 @@ while number > 0:
         i += 1
     print()
     number -= 1
+
+original_number = int(input("Please type in a number: "))
+number = 1
+while number <= original_number:
+    i = 0
+    while i < number:
+        print(f"{i} ", end="")
+        i += 1
+    print()
+    number += 1

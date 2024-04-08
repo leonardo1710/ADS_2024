@@ -8,7 +8,7 @@ You can use variables to store any information that will be needed later in the 
 # my_name = "Leon"    # storing a string value
 # my_age = 31         # storing a number value
 #
-# # The value stored in a variable can also be defined using other variables:
+# The value stored in a variable can also be defined using other variables:
 # firstname = "Bart"
 # lastname = "Simpson"
 #
@@ -112,13 +112,13 @@ Printing with f-strings
 So called f-strings are another way of formatting printouts in Python. 
 The syntax can initially look a bit confusing, but in the end f-strings are often the simplest way of formatting text.
 """
-# result = 10 * 25
-# print(f"The result is {result}")
-#
-# name = "René"
-# age = 30
-# city = "Vienna"
-# print(f"Hi {name}, you are {age} years old. You live in {city}.")
+result = 10 * 25
+print(f"The result is {result}")
+
+name = "René"
+age = 30
+city = "Vienna"
+print(f"Hi {name}, you are {age} years old. You live in {city}.")
 
 """
 Floating point numbers
@@ -126,9 +126,10 @@ Floating point numbers
 Floating point number or float is a term you will come across often in programming. 
 It refers to numbers with a decimal point. They can be used much in the same way as integer values.
 """
-# number1 = 2.5
-# number2 = -1.25
-# number3 = 3.62
-#
-# mean = (number1 + number2 + number3) / 3
-# print(f"Mean: {mean}")
+number1 = 2.5
+number2 = -1.25
+number3 = 3.62
+
+mean = (number1 + number2 + number3) / 3
+print(f"Mean: {mean}")
+
