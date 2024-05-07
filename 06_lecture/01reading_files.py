@@ -31,3 +31,25 @@ with open("example.txt") as new_file:
         total_length += length
 
 print("Total length of lines:", total_length)
+
+"""
+Split method
+"""
+text = "monkey,banana,harpsichord"
+words = text.split(",")
+for word in words:
+    print(word)
+
+
+"""
+Reading CSV files
+"""
+with open("grades.csv") as new_file:
+    for line in new_file:
+        line = line.replace("\n", "")
+        parts = line.split(";")
+        name = parts[0]
+        grades = parts[1:]
+        print("Name:", name)
+        print("Grades:", grades)
+
