@@ -35,12 +35,6 @@ Try to solve this example in 2 ways:
     * once using positive indeces
     * once using negative indeces
 """
-str = input("String here: ")
-for i in range(-1, -len(str) - 1, -1):
-    print(str[i])
-
-for i in range(len(str) - 1, -1, -1):
-    print(str[i])
 
 # Write your solution here
 
@@ -133,19 +127,6 @@ Example:
 """
 # Write your solution here
 
-"""
-Write a program which asks the user to type in a string. 
-The program then prints out all the substrings which end with the last character, from the shortest to the longest. 
-Have a look at the example below.
-
-Example:
-    Please type in a string: >> test
-    t
-    st
-    est
-    test
-"""
-# Write your solution here
 
 """
 Write a program which asks the user to input a string. The program then prints out different messages if the string 
